@@ -46,6 +46,7 @@ grid-template-areas:
 }
 
 .box-1 {
+    
 grid-area: Sale1;
 }
 .box-2 {
@@ -83,4 +84,12 @@ grid-area: Product7;
 }
 .box-12 {
 grid-area: Product8;
+}
+a {
+    color: black;
+    font-size: 20px;
+}
+a:hover {
+    color: darkblue;
+    font-weight: 900;
 }
