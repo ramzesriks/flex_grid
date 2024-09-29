@@ -1,0 +1,71 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    gap: 10px 10px;
+    min-height: 100vh;
+    background: #DCE8E8;
+}
+header, nav, aside, main, section, footer {
+    display: flex;
+    border: 1px solid #000000;
+    padding: 10px 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 5px 0 #333;
+}
+
+header {
+background: linear-gradient(to bottom, rgba(180, 227, 145, 1) 0%, rgba(97, 196, 25, 1) 50%, rgba(180, 227, 145, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *;*/
+   min-height: 100px;
+}
+
+nav {
+    background: linear-gradient(to bottom, rgba(157, 213, 58, 1) 0%, rgba(161, 213, 79, 1) 50%, rgba(128, 194, 23, 1) 51%, rgba(124, 188, 10, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ *;*/
+    min-height: 100px;
+}
+.co {
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 580px;
+    column-gap: 10px;
+}
+.con {
+    display: flex;
+    min-width: 29.3%;    
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    min-width: 70%;    
+}
+
+aside {
+   min-width: 100%;
+background: linear-gradient(to right, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 100%);
+}
+
+main {
+    background: linear-gradient(to bottom, rgba(183, 222, 237, 1) 0%, rgba(113, 206, 239, 1) 50%, rgba(33, 180, 226, 1) 51%, rgba(183, 222, 237, 1) 100%);
+    min-height: 49.15%;
+}
+
+section {
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(41, 137, 216, 1) 50%, rgba(32, 124, 202, 1) 51%, rgba(125, 185, 232, 1) 100%);
+    min-height: 49.15%;
+}
+
+footer {
+    background: linear-gradient(to bottom, rgba(180, 221, 180, 1) 0%, rgba(131, 199, 131, 1) 17%, rgba(82, 177, 82, 1) 33%, rgba(0, 138, 0, 1) 67%, rgba(0, 87, 0, 1) 83%, rgba(0, 36, 0, 1) 100%);
+    min-height: 100px;
+}
