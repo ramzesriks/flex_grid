@@ -1,2 +1,2 @@
 ﻿# flex_grid
-## <a href="">Посетить сайт</a>
+## <a href="https://ramzesriks.github.io/flex_grid/">Посетить сайт</a>
